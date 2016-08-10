@@ -1,0 +1,135 @@
+* { margin: 0; padding: 0; border: 0;}
+html, body {width; 100%; }
+.container {margin-left: 10px;}
+h1, h2, h3, h4 {color: #fd7c35;}
+h2 {margin-top: 15px; padding: 6px 0 3px 0;}
+h3 {border-bottom:  1px solid #979797; padding-bottom: 3px; margin-top: 18px;}
+body {font-family: Helvetica, Arial, sans-serif;}
+ul, ol { padding-left: 20px;}
+ol li {font-size: 18px;}
+ol li, ul li { margin: 1% 0 1% 1%;}
+#recipes h3 {border-bottom: none;}
+#recipes li {list-style-type: none; border: 1px solid #979797;}
+#recipes img {float: left;}
+
+.header {height: 140px; background-color: #951e20; margin: 0; auto; padding: 20px 0 0 20px;}
+.header img {float: left;}
+.main-content {width: 960px; margin: 0 auto;}
+h2 {font-size: 26px; font-weight: bold;}
+.footer { width: 100%; height: 80px; display: block;}
+h1 {color: #fff; text-align: center;}
+
+.header li {
+        list-style-type: none;
+    margin-top: 35px;
+    float: right;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #fd7c35 (orange) on hover */
+li a:hover {
+    background-color: #fd7c35;
+}
+
+#recipes ul {
+    list-style-type: square;
+}
+#recipes li {
+    padding: 14px 14px;
+    text-decoration: none;
+}
+#recipes li a {
+    color: white;
+background-color: #fd7c35;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+#recipes p {
+margin-top: 20px;
+}
+
+ul #ingredients {
+    list-style-type: square;
+}
+/* #nav {padding-left: 0;}
+#nav li {display: inline-block;}
+#nav li_first-child {margin-left: 0;}
+#nav a {text-decoration: none; color: #c2c65e; font-weight: bold; font-size: 20px;}
+#nav a:hover {text-decoration: underline; color: #90c65e;} */
+
+.photos {list-style-type: none; padding: 10px 0 0 0;}
+.photos li {display: inline; padding-left: 11px;}
+.photos li:first-child {padding-left: 0;}
+.featured-image {width: 550px; height: 370px; background: #fff url(images/chocolate_mousse.jpg) top left no-repeat; margin: 0 auto;}
+.featured-image h3 {margin: 0; background-color: #444; color: #fff; padding: 8px 0 5px 15px; text-transform: uppercase;}
+
+.featured-image h3::before {
+content:normal;
+}
+
+input, textarea, label {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    border: 1px solid #888;
+    margin-bottom: 25px;
+    font-size:  18px;
+        background-color:  #ffefe6;
+}
+
+input {padding: 7px;}
+
+textarea {height: 200px;}
+
+input[type=submit] {width: 140px; font-size: 12px; font-weight: bold; background-color: #fd7c35; color: #fff; border-radius: 5px;}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #fd7c35;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+    width: 200px;
+}
+
+.btn:hover {
+  background: #951e20;
+  text-decoration: none;
+}
+
+.btn:active {
+  text-decoration: none; color: #fff;
+}
+
+.btn:visited {
+  text-decoration: none; color: #fff;
+}
+
+.btn a {
+  text-decoration: none;
+    color: #fff;
+}
+
+h3::before {
+content: url(images/arrow.jpg); 
+margin-right: 10px;
+}
